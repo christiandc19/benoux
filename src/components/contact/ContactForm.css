@@ -104,7 +104,7 @@ input {
   }
 
   input[type="submit"]:hover {
-    background-color: rgb(212, 42, 212);
+    background-color: #48a6cc;
     border-color: var(--secondary-color);
     color: #fff;
   }
@@ -146,6 +146,39 @@ input {
       margin: auto;
       z-index: 2;
   }
+
+
+
+
+  .tag-container {
+    display: inline-block;
+    margin: 10px;
+}
+.tag-container input[type="radio"] {
+    display: none; /* Hide the actual radio buttons */
+}
+.tag-container label {
+    display: inline-block;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    margin: 3px;
+    border-radius: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+.tag-container input[type="radio"]:checked + label {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+
+
+
+
+
+  
 
   .disclaimer p {
     padding: 1rem 0;

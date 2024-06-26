@@ -80,9 +80,11 @@ feedbackEl.setAttribute("class", "feedback hidden");
             <form ref={form} onSubmit={sendEmail}>
               <div class="inputs">
                 <input type="text" name='name' placeholder='Your Name' required /> <br/>
+                <input type="text" name='job' placeholder='Job title' required /> <br/>
+                <input type="text" name='company' placeholder='Company name' required /> <br/>
                 <input type="text" name='email' placeholder='Your Email' required /> <br/>
                 <input type="tel" name='phone' placeholder='Your Phone' required /> <br/>
-                <input type="text" name='subject' placeholder='Subject' required /> <br/>
+                {/* <input type="text" name='subject' placeholder='Subject' required /> <br/> */}
               </div>
 
 
