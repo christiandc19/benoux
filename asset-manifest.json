@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/benoux/static/css/main.8b858519.css",
-    "main.js": "/benoux/static/js/main.99e47d17.js",
+    "main.css": "/benoux/static/css/main.c1d08808.css",
+    "main.js": "/benoux/static/js/main.827bd66b.js",
     "static/media/male_doctor.png": "/benoux/static/media/male_doctor.a99bb46677eb76d5fa61.png",
     "static/media/nurses.webp": "/benoux/static/media/nurses.e215255b3a1c1f4e2f65.webp",
     "static/media/landing_page_image.webp": "/benoux/static/media/landing_page_image.8d07bfd04380a217d217.webp",
@@ -19,6 +19,7 @@
     "static/media/submenu-bg-team.webp": "/benoux/static/media/submenu-bg-team.c32db35fb519273b601c.webp",
     "static/media/Excellence.webp": "/benoux/static/media/Excellence.c74e41ca36e70ea32704.webp",
     "static/media/section-bg.jpg": "/benoux/static/media/section-bg.37b1c5c020be9cc067a6.jpg",
+    "static/media/privacy_policy.webp": "/benoux/static/media/privacy_policy.f383bf89624a4abf3419.webp",
     "static/media/implementation.webp": "/benoux/static/media/implementation.42e94a84e111223a95dc.webp",
     "static/media/hero4.webp": "/benoux/static/media/hero4.5d33f3aa09dd2076cd93.webp",
     "static/media/hero5.webp": "/benoux/static/media/hero5.3580e7c34e7cb4e48e00.webp",
@@ -34,11 +35,11 @@
     "static/media/hero.webp": "/benoux/static/media/hero.6b83f3ea808cb9a4a838.webp",
     "static/media/Wildest.ttf": "/benoux/static/media/Wildest.bdafab96b6a49820f557.ttf",
     "index.html": "/benoux/index.html",
-    "main.8b858519.css.map": "/benoux/static/css/main.8b858519.css.map",
-    "main.99e47d17.js.map": "/benoux/static/js/main.99e47d17.js.map"
+    "main.c1d08808.css.map": "/benoux/static/css/main.c1d08808.css.map",
+    "main.827bd66b.js.map": "/benoux/static/js/main.827bd66b.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b858519.css",
-    "static/js/main.99e47d17.js"
+    "static/css/main.c1d08808.css",
+    "static/js/main.827bd66b.js"
   ]
 }
