@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import { BsFillPinMapFill } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
+import { Link } from "react-router-dom";
+import { Link as LinkRoll } from "react-scroll";
 
 import Fade from 'react-reveal/Fade';
 
@@ -89,8 +91,14 @@ feedbackEl.setAttribute("class", "feedback hidden");
                 <textarea name="message" placeholder="How can we help?" cols="30" rows="8" required></textarea>
 
 
-                <div className="privacyPolicy">
-                <p>Benoux Staffing needs the contact information you provide to us to contact you about our products and services. You may unsubscribe from these communications at any time. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review our Privacy Policy.</p>
+                <div className="disclaimer">
+                <p>Benoux Staffing needs the contact information you provide to us to contact you about our products and services. You may unsubscribe from these communications at any time. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review our 
+                  
+                  <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                      <Link to="/privacy-policy"><span> Privacy Policy </span></Link>
+                  </LinkRoll>
+
+                  </p>
               </div>
 
 
@@ -101,7 +109,7 @@ feedbackEl.setAttribute("class", "feedback hidden");
 
               <div className="feedback hidden">
               {/* <img  src= {myAvatar} alt='avatar'/> */}
-              <textarea name="message2" cols="30" rows="3" required>Message Sent to Santa Monica Rehab!</textarea>
+              <textarea name="message2" cols="30" rows="3" required>Message Sent to Benoux Agency!</textarea>
               </div>
 
 

@@ -147,9 +147,15 @@ input {
       z-index: 2;
   }
 
-  .privacyPolicy p {
+  .disclaimer p {
     padding: 1rem 0;
     font-size: 12px;
+  }
+
+  .disclaimer span {
+    padding: 1rem 0;
+    font-size: 12px;
+    color: var(--primary-color);
   }
 
 
