@@ -2,7 +2,7 @@ import React from "react";
 import "./sectionThree.css";
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
-import male_doctor from "../../assets/male_doctor.png";
+import male_doctor from "../../assets/male_doctor2.webp";
 
 const WhatWeDo = () => {
   return (
