@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/benoux/static/css/main.c1d08808.css",
-    "main.js": "/benoux/static/js/main.827bd66b.js",
+    "main.css": "/benoux/static/css/main.2e1bf1db.css",
+    "main.js": "/benoux/static/js/main.309fa5dc.js",
     "static/media/male_doctor.png": "/benoux/static/media/male_doctor.a99bb46677eb76d5fa61.png",
     "static/media/nurses.webp": "/benoux/static/media/nurses.e215255b3a1c1f4e2f65.webp",
     "static/media/landing_page_image.webp": "/benoux/static/media/landing_page_image.8d07bfd04380a217d217.webp",
@@ -35,11 +35,11 @@
     "static/media/hero.webp": "/benoux/static/media/hero.6b83f3ea808cb9a4a838.webp",
     "static/media/Wildest.ttf": "/benoux/static/media/Wildest.bdafab96b6a49820f557.ttf",
     "index.html": "/benoux/index.html",
-    "main.c1d08808.css.map": "/benoux/static/css/main.c1d08808.css.map",
-    "main.827bd66b.js.map": "/benoux/static/js/main.827bd66b.js.map"
+    "main.2e1bf1db.css.map": "/benoux/static/css/main.2e1bf1db.css.map",
+    "main.309fa5dc.js.map": "/benoux/static/js/main.309fa5dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1d08808.css",
-    "static/js/main.827bd66b.js"
+    "static/css/main.2e1bf1db.css",
+    "static/js/main.309fa5dc.js"
   ]
 }
