@@ -20,12 +20,6 @@
   opacity: 0.09;
 }
 
-/* .sideTabs {
-  background: #67a8dd;
-  background: linear-gradient(90deg, #67a8dd 0%, rgba(40, 92, 134, 0.863) 74%);    
-  padding: 2rem 0;
-} */
-
 .sideTabsHeader {
   text-align: center;
   padding: 1rem;
@@ -93,19 +87,30 @@
   text-align: center;
   font-size: 2rem;
   padding: .5rem;
-  color: rgb(31, 29, 29);
+  color: var(--primary-color);
 }
 
 .sideTabContent h2 {
   font-weight: normal;
   text-align: center;
   font-size: 2rem;
-  color: rgb(233, 156, 69);
+  color: #48a6cc;
+}
+
+.sideTabContent h3 {
+  font-size: 1rem;
+  padding: .5rem 0;
+  color: var(--primary-color);
+  font-weight: normal;
 }
 
 .sideTabContent p {
   text-align: left;
   color: rgb(31, 29, 29);
+}
+
+.sideTabContent ul li {
+  padding: .5rem 0;
 }
 
 

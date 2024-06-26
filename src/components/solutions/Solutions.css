@@ -3,7 +3,7 @@
 
 .solutions {
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     position: relative;
     background: rgba(0, 0, 0, 0.226);
   }
@@ -19,19 +19,20 @@
 
 
 .solutionsContent {
-    width: 40%;
+    width: 50%;
     display: block;
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     padding: 1rem;
 }
 
 
 .solutions h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
     text-align: center;
+    line-height: 3rem;
 }
 
 
@@ -44,22 +45,12 @@
         width: 100%;
         display: block;
         position: absolute;
-        top: 60%;
         padding: 1rem;
     }
 
-.solutions h1 {
-    font-size: 3rem;
-    text-align: center;
-}
-}
-
-@media screen and (max-width:700px) {
-    .solutions {
-        height: 100vh;
-      }
-
-      .solutionsContent {
-        bottom: 30%;
-    }
+        .solutions h1 {
+            font-size: 2rem;
+            text-align: center;
+            line-height: 2rem;
+        }
 }

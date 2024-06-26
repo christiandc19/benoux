@@ -12,7 +12,7 @@ const Healthcare_rpo = () => {
 
                 <div className="HealthcareRpoContent">
                     <Fade top>
-                    <h1>Healthcare RPO Strategies To Fill Your Talent Pipeline</h1>
+                    <h1>Recruitment Process Outsourcing (RPO)</h1>
                     </Fade>
                 </div>
             </div>

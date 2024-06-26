@@ -1,6 +1,6 @@
 import React from 'react'
 import './PrivacyPolicySection.css'
-import { BsCheckLg } from 'react-icons/bs';
+import { BsDot } from "react-icons/bs";
 
 const PrivacyPolicySection = () => {
   return (
@@ -13,7 +13,7 @@ const PrivacyPolicySection = () => {
                     <p>Effective Date: June 26, 2024</p>
                     </div>
                     <br/>
-                    <p><b>Benoux Healthcare Staffing Agency</b> ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website www.benouxstaffing.com (the "Site"). Please read this Privacy Policy carefully. If you do not agree with the terms of this Privacy Policy, please do not access the Site.</p>
+                    <p><b>Benoux Healthcare Staffing Agency</b> ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website www.benouxagency.com (the "Site"). Please read this Privacy Policy carefully. If you do not agree with the terms of this Privacy Policy, please do not access the Site.</p>
             </div>
 
             <div className='privacyPolicyBullet'>
@@ -28,13 +28,13 @@ const PrivacyPolicySection = () => {
 
                 <h1>2. How We Use Your Information</h1>
                 <h2>We use the information we collect in the following ways:</h2>
-                <p><BsCheckLg /> To Improve Our Website: We continually strive to improve our website offerings based on the information and feedback we receive from you.</p>
+                <p><BsDot /> To Improve Our Website: We continually strive to improve our website offerings based on the information and feedback we receive from you.</p>
                 <ul>
                     <li>
-                    <p><BsCheckLg /> To Process Transactions: Your information helps us to more effectively respond to your customer service requests and support needs.</p>
+                    <p><BsDot /> To Process Transactions: Your information helps us to more effectively respond to your customer service requests and support needs.</p>
                     </li>
 
-                    <li><p><BsCheckLg /> To Send Periodic Emails: The email address you provide may be used to send you information and updates pertaining to your application, in addition to receiving occasional company news, updates, related product or service information, etc.</p></li>
+                    <li><p><BsDot /> To Send Periodic Emails: The email address you provide may be used to send you information and updates pertaining to your application, in addition to receiving occasional company news, updates, related product or service information, etc.</p></li>
                 </ul>
 
                 <h1>3.  How We Protect Your Information</h1>

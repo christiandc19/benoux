@@ -114,8 +114,7 @@
         top: 0;
         left:-100%;
         justify-content: center;
-        background: rgb(255, 255, 255);
-        transition: 0.5s ease-in;
+        background: var(--primary-color);
     }
 
     .navbar .active {

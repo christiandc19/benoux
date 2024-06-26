@@ -11,7 +11,7 @@ const Solutions = () => {
         <div className='solutions'>
                 <div className="solutionsContent">
                     <Zoom duration={2000}>
-                        <h1>Healthcare Recruitment Solutions with Heart</h1>
+                        <h1>Streamline Your Healthcare Staffing with Expert Recruitment Solutions</h1>
                     </Zoom>
                 </div>
             </div>
