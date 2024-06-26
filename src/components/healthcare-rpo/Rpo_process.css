@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Hebrew:wght@300&display=swap');
+
+.rpoProcess {
+    width: 100%;
+    height: auto;
+    padding: 2rem 0;
+    background: #67a8dd;
+    background: linear-gradient(90deg, #67a8dd 0%, rgba(40, 92, 134, 0.863) 74%);    
+
+}
+
+.rpoProcessHeader {
+    text-align: center;
+    padding: 1rem;
+}
+
+.rpoProcessHeader h1 {
+    font-size: 3rem;
+    padding: 1rem;
+    color: white;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+.rpoProcessHeader p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+
+}
+
+/* cards */
+
+.rpoProcessCard {
+    background-color: white;
+    width: 300px;
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+.rpoProcessCard img {
+    width: 100%;
+}
+
+.rpoProcessCards {
+    padding: 1rem;
+}
+
+.rpoProcessCard:hover {
+    box-shadow: 2px 13px 18px -14px rgba(23,22,23,1);
+}
+
+.rpoProcessCard h1 {
+    padding: .5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.rpoProcessCard p {
+    text-align: center;
+    font-size: 14px;
+    line-height: normal;
+    color: rgb(24, 23, 23);
+    font-family: 'roboto';
+    padding: .5rem;
+}
+
+
+.rpoProcessCardsContents {
+    display: flex; 
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+
+
+
+@media screen and (max-width:940px) {
+    
+    .rpoProcessCardsContents {
+        flex-wrap: wrap;
+    }
+
+    .rpoProcessCard {
+        width: 30%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .rpoProcessCard {
+        width: 75%;
+    }
+
+    .rpoProcessHeader h1 {
+        font-size: 2rem;
+    }
+}

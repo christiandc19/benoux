@@ -1,34 +1,25 @@
 import React from 'react'
-import InsuranceSection from '../insurance/InsuranceSection';
-import WeDo from '../../components/Whatwedo/Whatwedo';
+import SectionThree from '../SectionThree/sectionThree';
 import Whoweare from '../Whoweare/Whoweare'
 import ContactForm from '../contact/ContactForm';
-import Team from '../../components/team/TeamSection'
 import HomeSection1 from '../homeSection1/HomeSection1';
-import HomeMission from '../mission/HomeMission';
-import TherapyMH from '../theraphyMH/TheraphyMH';
-import TherapySA from '../therapySA/TherapySA';
-import InsuranceHome from '../insurance/InsuranceHome';
-import SectionOne from '../sectionOne/SectionOne';
+import CareersHome from '../careers/CareersHome';
 import SectionTwo from '../sectionTwo/SectionTwo';
+import SideTabs from '../expertise/Sidetabs';
 
 
 
 const home = () => {
   return (
     <>
-    <SectionOne />
+    <SectionThree />
     <SectionTwo />
-    <WeDo />
+    <SideTabs />
     <HomeSection1 />
-    <TherapyMH />
-    <TherapySA />
     <Whoweare />
-    <Team />
-    <HomeMission />
-    <InsuranceSection />
-    <InsuranceHome />
     <ContactForm />
+    <CareersHome />
+
     </>
   )
 }

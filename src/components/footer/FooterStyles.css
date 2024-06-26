@@ -3,7 +3,7 @@
     width: 100%;
     height: auto;
     position: relative;
-    background-color: #000000;  
+    background-color: var(--primary-color);
   }
   
 
@@ -74,7 +74,7 @@
     margin: 1rem 0 2rem 0;
     text-transform: uppercase;
     text-align: center;
-    color: rgb(255, 174, 0);
+    color: rgb(238, 236, 231);
     font-size: 1.2rem;
 }
 

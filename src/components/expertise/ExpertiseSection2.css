@@ -1,0 +1,92 @@
+.expertiseSection2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .expertiseSection2:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .02;
+  }
+
+  .HealthcareExecutiveSearch2Header h1 {
+    font-weight: normal;
+    padding: .5rem 0;
+  }
+
+  .HealthcareExecutiveSearch2Header {
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+
+  .expertiseSection2Content {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .expertiseSection2Flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .expertiseSection2FlexRight {
+    width: 50%;
+    margin: auto;
+  }
+
+  .expertiseSection2FlexRight h1 {
+    text-align: left;
+    font-weight: normal;
+    padding: .5rem 0;
+  } 
+
+  .expertiseSection2FlexRight h2 {
+    text-align: left;
+    font-weight: normal;
+    font-size: 1rem;
+    padding: .5rem 0;
+  } 
+
+  .expertiseSection2FlexRight p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: rgb(65, 66, 66);
+    text-align: justify;
+  }
+
+  .expertiseSection2FlexLeft {
+    width: 50%;
+    margin: auto;
+  }
+
+  .expertiseSection2FlexLeft img {
+    width: 100%;
+    border-radius: 1rem;
+  }
+
+
+  @media  screen and (max-width:940px) {
+
+    .expertiseSection2Flex {
+      flex-wrap: wrap;
+    }
+
+    .expertiseSection2FlexRight {
+        width: 100%;
+      }
+
+      .expertiseSection2FlexLeft {
+        width: 90%;
+      }
+
+  }

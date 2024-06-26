@@ -1,8 +1,5 @@
 import React from "react";
 import Fade from 'react-reveal/Fade';
-import { MdPhoneCallback } from "react-icons/md";
-
-import ContactForm from "./ContactForm";
 import './Contact.css'
 
 
@@ -14,16 +11,13 @@ const Contact = () => {
 <div className='contact-hero main-menu'>
             <div className="contact-hero-content">
             <Fade top>
-                    <h1>HAVE SOME QUESTIONS?</h1>
+                    <h1>CONTACT US</h1>
             </Fade>
             <Fade right>
-                  <p>Our Addiction and Recovery Support team is to assist you. </p>
-                  <h2><span><MdPhoneCallback /></span> <a href="tel:2135844445">(213) 584-4445</a></h2>
+                  <p>Ready to enhance your healthcare team with top-tier professionals? Contact Benoux Staffing Agency today to learn more about our comprehensive healthcare staffing services.</p>
             </Fade>
             </div>
      </div>
-
-      <ContactForm />
 
       </>
     )

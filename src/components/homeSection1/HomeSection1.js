@@ -1,106 +1,68 @@
 import React from "react";
 import "./HomeSection1.css";
-import { Link } from "react-router-dom";
-import { FaPills } from "react-icons/fa";
-import { MdWorkOutline } from "react-icons/md";
-import { BiBrain } from "react-icons/bi";
-import Fade from "react-reveal/Fade";
-import { Link as LinkRoll } from "react-scroll";
+import Integrity from '../../assets/Integrity.webp'
+import Excellence from '../../assets/Excellence.webp'
+import Respect from '../../assets/Respect.webp'
+import Accountability from '../../assets/Accountability.webp'
+import Growth from '../../assets/Growth.webp'
 
 const HomeSection1 = () => {
   return (
     <>
       <div className="section1">
-        <div className="section1-header">
-          <h1>WHAT WE OFFER</h1>
-          {/* <h2>Services from our best professionals</h2> */}
+        <div className="section1-header container">
+          <h1>Our Values</h1>
           <p>
-            Top level physiotherapy professional, evidenced based treatment. We
-            diagnose the cause and provide you with the best possible treatment.
+            At Benoux Healthcare Staffing Agency, we are driven by a set of core values that define who we are and how we operate. These values guide our actions, shape our culture, and serve as the foundation for our commitment to excellence in healthcare recruitment.          
           </p>
         </div>
 
-        <div className="section1-cards">
+        <div className="section1-cards container">
           <div className="wwa-cards-contents">
-            <div className="card1 card">
-              <Fade left>
-                <div className="card-content">
-                  <FaPills className="card-icon1" />
-                  <h1>Substance Abuse Programs</h1>
+
+          <div className="card">
+                  <h1>Integrity</h1>
+                  <img src={Integrity} alt="Integrity" loading="lazy"/>
                   <p>
-                    Treatment options for a multitude of substance use
-                    disorders. Whether you suffer from alcohol, prescription
-                    drugs, or other substance abuse disorders, find better
-                    healing with us.
+                  We build trust with our clients and candidates by being straightforward and reliable in all our interactions.
                   </p>
-                  <LinkRoll
-                    activeClass="active"
-                    to="top"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                  >
-                    <Link to="/substance-abuse">
-                      <div className="card3-btn">
-                        <h5>LEARN MORE</h5>
-                      </div>
-                    </Link>
-                  </LinkRoll>
-                </div>
-              </Fade>
             </div>
 
-            <div className="card2 card">
-              <Fade top>
-                <div className="card-content">
-                  <MdWorkOutline className="card-icon2" />
-                  <h1>Jobs Program</h1>
+
+            <div className="card">
+                  <h1>Excellence</h1>
+                  <img src={Excellence} alt="Integrity" loading="lazy"/>
                   <p>
-                    Our most unique feature sets you up with interview clothes,
-                    interview skills, resume assistance, and all the resources
-                    you need to get a job with a great company.
+                  Our rigorous recruitment process ensures that we connect the best talent with the right opportunities.
                   </p>
-                  <LinkRoll
-                    activeClass="active"
-                    to="top"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                  >
-                    <Link to="/jobs">
-                      <h5>LEARN MORE</h5>
-                    </Link>
-                  </LinkRoll>
-                </div>
-              </Fade>
             </div>
 
-            <div className="card3 card">
-              <Fade right>
-                <div className="card-content">
-                  <BiBrain className="card-icon3" />
-                  <h1>Mental Health Programs</h1>
+
+            <div className="card">
+                  <h1>Respect</h1>
+                  <img src={Respect} alt="Integrity" loading="lazy"/>
                   <p>
-                    {" "}
-                    We provide access to specific mental health services offered
-                    by a multidisciplinary team. It is for adults, teenagers and
-                    children who present symptoms of the most common mental
-                    disorders, such as an anxiety disorder or depression.
+                  This respect extends to our clients, candidates, and team members, fostering a positive and inclusive work environment.
                   </p>
-                  <LinkRoll
-                    activeClass="active"
-                    to="top"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                  >
-                    <Link to="/mental-health">
-                      <h5>LEARN MORE</h5>
-                    </Link>
-                  </LinkRoll>
-                </div>
-              </Fade>
             </div>
+
+            <div className="card">
+                  <h1>Accountability</h1>
+                  <img src={Accountability} alt="Integrity" loading="lazy"/>
+                  <p>
+                  We set high standards, regularly review our performance, and continuously seek ways to improve our services.
+                  </p>
+            </div>
+
+            <div className="card">
+                  <h1>Growth</h1>
+                  <img src={Growth} alt="Integrity" loading="lazy"/>
+                  <p>
+                  We support the growth of our clients and candidates by helping them achieve their career aspirations and organizational goals.
+                  </p>
+            </div>
+
+
           </div>
         </div>
       </div>

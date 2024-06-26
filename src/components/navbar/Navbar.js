@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {NavLink, Link} from 'react-router-dom'
-// import logo from '../../assets/nav-logo.png'
+import logo from '../../assets/hero-logo.png'
 import {BsFillCaretDownFill } from "react-icons/bs";
 
 
@@ -40,75 +40,28 @@ const Navbar = () => {
 
     return (
         <>
-        <div className='navbar container' name='top'>
+        <div className='navbar' name='top'>
             <div className="navbar-container">
                 
                  <div className="navbar-logo">
                     <Link to='/'>
-                    <h1>BENOUX AGENCY</h1>
-                    {/* <img src={logo} alt="Santa Monica Rehab Logo" loading="lazy"/> */}
+                    <img src={logo} alt="Benoux Staffing Agency Logo" loading="lazy"/>
                     </Link>
                 </div>
 
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
                     <li className="hover-underline-animation"><Link to='/'>Home</Link></li>
-                    
-                    {/* <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows"> <Link to={`/substance-abuse`}> Addiction <BsFillCaretDownFill /> </Link>
+
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="/healthcare-recruitment-solutions"> Our Solutions <BsFillCaretDownFill /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/alcohol`}> Alcohol Addiction</NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/cocaine`}> Cocaine Addiction</NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/fentanyl`}> Fentanyl Addiction</NavLink> </li>
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/heroin`}> Heroin Addiction</NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/kratom`}> Kratom Addiction</NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mdma`}> MDMA Addiction</NavLink> </li>
-                           <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/meth`}> Meth Addiction</NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/opiate`}> Opiate Addiction</NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/opioid`}> Opioid Addiction</NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/oxycodone`}> Oxycodone Addiction</NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/prescriptions`}> Prescriptions Addiction</NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/xanax`}> Xanax Addiction</NavLink> </li>
-                        </ul>
-                    </li> */}
-
-
-                    {/* <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to={`/mental-health`}> Mental Health <BsFillCaretDownFill /> </Link>
-                    <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/acute-stress-disorder`}> Acute Stress Disorder </NavLink> </li>
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/adhd`}> ADHD</NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/anger-disorder`}> Anger Disorder </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/anxiety`}> Anxiety Disorder </NavLink> </li>
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/bipolar-disorder`}> Bipolar Disorder </NavLink> </li>
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/depression`}> Depression </NavLink> </li>
-                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/panic-disorder`}> Panic Disorder </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/ptsd`}> PTSD </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/schizoaffective`}> Schizoaffective Disorder </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/schizophrenia`}> Schizophrenia Disorder</NavLink> </li>
-                        </ul>
-
-                    </li> */}
-
-
-
-                    <li className="hover-underline-animation"><Link to='/treatment'>Treatment</Link> </li>
-
-
-
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> About Us <BsFillCaretDownFill /> </Link>
-                    <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mission`}> Our Mission</NavLink> </li>
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/team`}> Our Team</NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/testimonials`}> Testimonials </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/healthcare-rpo`}> Recruitment Process Outsourcing (RPO)</NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/healthcare-executive-search`}> Executive Search Solutions</NavLink> </li>
                         </ul>
                     </li>
+                    
 
-
-
-
-
-                    {/* <li className="hover-underline-animation"><Link to='/residence'>Residence</Link> </li> */}
-                    <li className="hover-underline-animation"><Link to='/jobs'>Jobs Program</Link> </li>
-                    <li className="hover-underline-animation"><Link to='/insurance'>Insurance</Link></li>
-                    {/* <li className="hover-underline-animation"><Link to='/community-links'>Community Links</Link></li> */}
+                    <li className="hover-underline-animation"><Link to='/expertise'>Expertise</Link> </li>
+                    <li className="hover-underline-animation"><Link to='/careers'>Careers</Link></li>
                     <li className="hover-underline-animation"><Link to='/contact'>Contact</Link></li>
                 </ul>
 

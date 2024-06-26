@@ -1,15 +1,14 @@
 
-
-
 .sectionOne {
     padding: 3rem 1rem;
 }
 
 .sectionOne h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
     color: var(--primary-color);
-    font-family: "Wildest";
+    font-family: "Roboto";
+    font-weight: normal;
 }   
 
 .sectionOne p {
@@ -17,4 +16,23 @@
     color: rgb(43, 40, 40);
     padding: 1rem 0;
     text-align: justify;
+}
+
+.sectionOneButton {
+    text-align: center;
+}
+
+.sectionOneButton button {
+    border-radius: .5rem;
+    padding: 1rem 1.5rem;
+    font-family: "Roboto";
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 940px) {
+    .sectionOne h1 {
+        font-size: 2rem;
+
+    }   
+    
 }

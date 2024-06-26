@@ -1,0 +1,110 @@
+.HealthcareRpoSection {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .HealthcareRpoSection:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
+    opacity: 0.08;
+  
+  }
+
+
+
+.HealthcareRpoSection {
+    width: 100%;
+    padding: 3rem 0;
+}
+
+.HealthcareRpoSectionHeader {
+    text-align: center;
+}
+
+.HealthcareRpoSectionHeader h1 {
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.HealthcareRpoSectionHeader p {
+    text-align: center;
+}
+
+.HealthcareRpoSectionContentFlex {
+    display: flex;
+    padding: 1rem 0;
+  }
+
+  .HealthcareRpoSectionCaption {
+    width: 100%;
+    margin: auto;
+  }
+
+
+.HealthcareRpoSectionContent {
+    width: 100%;
+}
+
+.HealthcareRpoSectionCaption {
+    width: 100%;
+    padding: 1rem;
+    text-align: right;
+    margin: auto;
+}
+
+.HealthcareRpoSectionCaption h1 {
+    font-size: 2rem;
+    padding: 1rem 0;
+    text-align: left;
+    font-weight: normal;
+}
+
+.HealthcareRpoSectionCaption p {
+    padding: .5rem 0;
+    text-align: left;
+}
+
+.HealthcareRpoSectionImage {
+    width: 100%;
+    padding: 1rem;
+    margin: auto;
+}
+
+.HealthcareRpoSectionImage img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+.flexLeftItem {
+    width: 350px;
+    padding: 1rem;
+    background-color: rgba(101, 79, 121, 0.089);
+    border-radius: .5rem;
+    margin: .5rem;
+}
+
+
+
+
+@media screen and (max-width: 940px) {
+    .HealthcareRpoSectionCaption h1 {
+        font-size: 1.5rem;
+    }
+
+    .HealthcareRpoSectionContentFlex {
+        flex-wrap: wrap;
+    }
+
+    .HealthcareRpoSectionImage {
+        width: 90%;
+    }
+}    

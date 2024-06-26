@@ -1,70 +1,62 @@
 import React from 'react'
-
+import Gauge from './Gauge'
 import './SectionTwo.css'
 
+
+
 const SectionTwo = () => {
-
-
-    const counters = document.querySelectorAll('.counter');
-const speed = 100; // The lower the slower
-
-counters.forEach(counter => {
-	const updateCount = () => {
-		const target = +counter.getAttribute('data-target');
-		const count = +counter.innerText;
-
-		// Lower inc to slow and higher to slow
-		const inc = target / speed;
-
-		// console.log(inc);
-		// console.log(count);
-
-		// Check if target is reached
-		if (count < target) {
-			// Add inc to count and output in counter
-			counter.innerText = count + inc;
-			// Call function every ms
-			setTimeout(updateCount, 1);
-		} else {
-			counter.innerText = target;
-		}
-	};
-
-	updateCount();
-});
-
   return (
-    <>
+<>
+            <div class="sectionTwo">
 
-        <section class="counters">
-			<div class="container">
-				<div>
-					<i class="fab fa-youtube fa-4x"></i>
-					<div class="counter" data-target="60000">0</div>
-					<h3>Subscribers</h3>
-				</div>
-				<div>
-					<i class="fab fa-twitter fa-4x"></i>
-					<div class="counter" data-target="15000">0</div>
-					<h3>Followers</h3>
-				</div>
-				<div>
-					<i class="fab fa-facebook fa-4x"></i>
-					<div class="counter" data-target="9000">0</div>
-					<h3>Likes</h3>
-				</div>
-				<div>
-					<i class="fab fa-linkedin fa-4x"></i>
-					<div class="counter" data-target="5000">0</div>
-					<h3>Connections</h3>
-				</div>
-			</div>
-		</section>
+            <div className="sectionTwoHeader container">
+                <h1>Over 2200 healthcare professionals placed in 5 years of dedicated service.</h1>
+            </div>
+         
 
-    
-    
-    </>
-  )
+            <div className="container about-skills-container">
+
+              <div className='sectionTwoFlex'>
+                <div className='sectionTwoFlexItem'>
+                  <Gauge
+                      Gauge="5"
+                      Name="years of healthcare recruiting experience"
+                      ClassName="recruiting_experience"
+                  />
+                </div>
+
+                <div className='sectionTwoFlexItem'>
+                  <Gauge
+                      Gauge="2,250"
+                      Name="new employees placed at healthcare organizations in 2023"
+                      ClassName="new_employees"
+                  />
+                </div>
+
+
+                <div className='sectionTwoFlexItem'>
+                <Gauge
+                    Gauge="35"
+                    Name="days time-to-fill for RPO engagements"
+                    ClassName="days" />
+
+              </div>
+
+
+              <div className='sectionTwoFlexItem'>
+                <Gauge
+                    Gauge="96%"
+                    Name="satisfied clients"
+                    ClassName="satisfied_clients" />
+              </div>
+
+            </div>
+
+
+
+            </div>
+            </div>
+            </>  )
 }
 
 export default SectionTwo

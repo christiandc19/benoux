@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+.sectionThree {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .sectionThree:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
+    opacity: 0.08;
+  
+  }
+
+.sectionThreeContent {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.sectionThreeLeft {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.sectionThreeLeft img  {
+    width: 100%;
+}
+
+.sectionThreeRight {
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.sectionThreeRight h1 {
+    font-size: 3rem;
+    padding: .5rem 0;
+    color: var(--primary-color);
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+.sectionThreeRight p {
+    text-align: justify;
+    font-size: 20px;
+    color: rgb(107, 102, 102);
+    line-height: normal;
+    font-family: "Roboto";
+}
+
+
+
+
+
+
+@media screen and (max-width:940px)  {
+
+    .sectionThreeContent {
+        flex-wrap: wrap-reverse;
+    }
+
+    .sectionThreeLeft {
+        width: 100%;
+    }
+
+    .sectionThreeRight {
+        width: 100%;
+    }
+
+    .sectionThreeRight h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .sectionThreeRight p {
+        font-size: 16px;
+    }
+    
+}
+

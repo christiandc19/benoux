@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+.rpoBenefits {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .rpoBenefits:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
+    opacity: 0.08;
+  
+  }
+
+
+.rpoBenefitsContent {
+    display: flex;
+    padding: 1rem;
+}
+
+.rpoBenefitsLeftHeader {
+    text-align: center;
+}
+
+.rpoBenefitsLeftHeader h1 {
+    padding: .5rem 0;
+    font-weight: normal;
+}
+
+.rpoBenefitsLeft {
+    width: 100%;
+    margin: auto;
+}
+
+.rpoBenefitsRight {
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+
+.rpoBenefitsRight img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.homeSection2-content h1 {
+    font-size: 3rem;
+    padding: 1rem 0;
+    color: var(--primary-color);
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+
+.homeSection2-content p {
+    font-size: 16px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0;
+    font-family: "Roboto";
+
+}
+
+.rpoBenefitsChecklist {
+    display: flex;
+    gap: 1rem;
+    padding: .1rem 0;
+}
+
+.rpoBenefitsChecklist p {
+    text-align: left;
+}
+
+
+.homeSection2-icon {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+
+
+
+@media screen and (max-width:940px) {
+
+    .rpoBenefitsContent {
+        flex-wrap: wrap;
+    }
+    .rpoBenefitsLeft {
+        width: 100%;
+    }
+
+    .rpoBenefitsRight {
+        width: 100%;
+    } 
+
+
+}
+
+@media screen and (max-width:700px) {
+    .homeSection2-content h1 {
+        font-size: 2rem;
+        text-align: center;
+        }
+
+    .homeSection2-left h2 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .homeSection2-right {
+        width: 100%;
+    } 
+
+    .homeSection2-content {
+        flex-wrap: wrap
+    }
+
+
+    .homeSection2-content p {
+        font-size: 16px;
+        text-align: center;
+    }
+    
+}

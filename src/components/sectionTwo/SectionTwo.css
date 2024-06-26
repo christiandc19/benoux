@@ -1,51 +1,52 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-
-
-header {
-	flex: 1;
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.sectionTwo {
+  background: #67a8dd;
+  background: linear-gradient(90deg, #67a8dd 0%, rgba(40, 92, 134, 0.863) 74%);    
+  padding: 2rem 0;
+    margin-top: -.2rem;
 }
 
-header h1 {
-	font-size: 60px;
+.sectionTwoHeader h1 {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.2rem;
 }
 
-.counters {
-	background: #0f479a;
-	color: #fff;
-	padding: 40px 20px;
-	border-top: 3px lightskyblue solid;
+.sectionTwoFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+
 }
 
-.counters .container {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 30px;
-	text-align: center;
+.sectionTwoFlexItem {
+    width: 30%;
 }
 
-.counters i {
-	color: lightskyblue;
-	margin-bottom: 5px;
+.primary-title {
+    align-items: center;
 }
 
-.counters .counter {
-	font-size: 45px;
-	margin: 10px 0;
+
+/* ======================== MEDIA QUERIES FOR SMALL DEVICES ================================ */
+
+@media screen and (max-width: 600px) {
+
+    .sectionTwoFlexItem {
+        width: 100%;
+    }
 }
 
-@media (max-width: 700px) {
-	.counters .container {
-		grid-template-columns: repeat(2, 1fr);
-	}
+/* ======================== MEDIA QUERIES FOR iPad Mini ================================ */
 
-	.counters .container > div:nth-of-type(1),
-	.counters .container > div:nth-of-type(2) {
-		border-bottom: 1px lightskyblue solid;
-		padding-bottom: 20px;
-	}
+@media screen and (max-width: 768px) {
+    .about-skills-container {
+        margin-bottom: 10rem;
+    }
 }
+
+
+

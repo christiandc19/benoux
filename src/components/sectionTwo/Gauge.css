@@ -1,0 +1,119 @@
+
+
+.gauge {
+    padding: 1rem;
+}
+
+.gauge-box {
+    border: 2px solid rgb(236, 236, 241);
+    width: 100%;
+    padding: .5rem;
+}
+
+.bar-container {
+    height: 5px;
+    width: 100%;
+    margin-right: 10px;
+    position: relative;
+    background-color: rgb(236, 239, 243);
+    margin-bottom: 0.5rem;
+    border-radius: 7px;
+    margin: auto;
+}
+
+.primary-title h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.gauge h3 {
+    color: rgb(235, 226, 226);
+    font-size: 6rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Gabriola";
+
+
+}
+
+
+.gauge p {
+    margin-bottom: 0;
+    font-size: 1rem;
+    color: rgb(235, 226, 226);
+    text-align: center;
+    padding: .5rem 0;
+
+}
+
+
+
+.bar-container .recruiting_experience,
+.bar-container .new_employees,
+.bar-container .days,
+.bar-container .satisfied_clients {
+    position: absolute;
+    height: 100%;
+    margin-right: 10px;
+    background-color: #edaa09;
+    border-radius: 7px;
+}
+
+.recruiting_experience {
+    -webkit-animation: progress-recruiting_experience 5s forwards;
+            animation: progress-recruiting_experience 5s forwards;
+}
+
+
+@keyframes progress-recruiting_experience {
+    from {width:0px;}
+    to {width:100%;}
+}
+
+
+.new_employees {
+    -webkit-animation: progress-new_employees 5s forwards;
+            animation: progress-new_employees 5s forwards;
+}
+
+@keyframes progress-new_employees {
+    from {width:0px;}
+    to {width:90%;}
+}
+
+.days {
+    -webkit-animation: progress-days 5s forwards;
+            animation: progress-days 5s forwards;
+}
+
+@keyframes progress-days {
+    from {width:0px;}
+    to {width:100%;}
+}
+
+
+.satisfied_clients {
+    -webkit-animation: progress-satisfied_clients 5s forwards;
+            animation: progress-satisfied_clients 5s forwards;
+}
+
+@keyframes progress-satisfied_clients {
+    from {width:0px;}
+    to {width:96%;}
+}
+
+
+
+@media screen and (max-width:700px)  {
+    .gauge p {
+        font-size: .8rem;
+    }
+
+    .gauge h3 {
+        font-size: 4rem;
+    }
+    
+}
+
