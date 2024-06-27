@@ -34,7 +34,7 @@ const SectionTwo = () => {
                       <CountUp
                         start={0}
                         end={2250}
-                        duration={10}
+                        duration={15}
                         suffix=""/>
                     </h1>
                     <h2>New employees placed at healthcare organizations in 2023</h2>
@@ -45,7 +45,7 @@ const SectionTwo = () => {
                       <CountUp
                         start={0}
                         end={35}
-                        duration={10}
+                        duration={15}
                         suffix=""/>
                     </h1>
                     <h2>Days time-to-fill for RPO engagements</h2>
@@ -57,7 +57,7 @@ const SectionTwo = () => {
                       <CountUp
                         start={0}
                         end={96}
-                        duration={10}
+                        duration={15}
                         suffix="%"/>
                     </h1>
                     <h2>Satisfied clients</h2>

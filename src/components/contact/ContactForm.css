@@ -31,21 +31,32 @@
   padding: .5rem 0;
 }
 
-
 .contact-container {
     width: 100%;
     height: auto;
     position: relative;
     display: flex;
     justify-content: center;
+    gap: .5rem;
+    padding: 1rem;
   }
 
-  .get_form_inner {
+  .contactFormLeft {
+    width: 50%;
+    height: auto;
+    margin: auto 0;
+  }
+
+  .contactFormLeft img {
+    width: 100%;
+  }
+
+  .contactFormRight {
+    width: 80%;
+    margin: auto;
     display: block;
-    padding: 2rem 2rem ;
     background: #fff;
     box-shadow: -4px -2px 20px -7px #cfd5df;
-    margin: 4rem 2rem 2rem 3rem;
   }
 
 input {
