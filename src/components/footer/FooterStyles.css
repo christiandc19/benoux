@@ -3,8 +3,8 @@
     width: 100%;
     height: auto;
     position: relative;
-    background-color: var(--primary-color);
-  }
+    background: linear-gradient(90deg, #4e82ac 0%, rgba(40, 92, 134, 0.863) 74%);    
+}
   
 
 .footer .container {

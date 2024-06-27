@@ -32,16 +32,11 @@
     text-align: left;
 }
 
-
-
 .contact-hero p {
     font-family: 'Montserrat', sans-serif;
     color: rgb(255, 255, 255);
 }
 
-.contact-hero span {
-    color: white;
-}
 
 /* MEDIA QUERIES */
 

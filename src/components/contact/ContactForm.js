@@ -42,33 +42,9 @@ feedbackEl.setAttribute("class", "feedback hidden");
 
 <div className="bg">
 
-
-{/* <div className="contact2-header contact2-container">
-            <h1>CONTACT BENOUX STAFFING</h1>
-            <p>We look forward to hearing from you and working together to match the right professionals with the perfect opportunities!</p>
-</div> */}
-
-
 <section className="contact-container container">
 <div className="contactFormLeft">
-
       <img src={CallUs} alt="Professional Woman" loading="lazy"/>
-    
-    {/* <div class="get_form_inner2">
-            <h2>CALL US</h2>
-            <p><AiOutlinePhone /><a href="tel:2135844445"> +1 (213) 584-4445</a></p>
-    </div> */}
-
-    {/* <div class="get_form_inner2">
-            <h2>EMAIL</h2>
-            <p><AiOutlineMail /> info@BenouxAgency.com  </p><br />
-    </div>
-
-    <div class="get_form_inner2">
-            <h2>LOCATION</h2>
-            <p><BsFillPinMapFill /> 750 N San Vicente Blvd, Suite 7A172, West Hollwood, CA 90069</p>
-    </div> */}
-
 </div>
 
 
@@ -76,8 +52,7 @@ feedbackEl.setAttribute("class", "feedback hidden");
 
             <div class="get_form_inner_text">
 
-              
-              <h3>Get In Touch</h3>
+              <h1>Get In Touch</h1>
               <p><i>We'll keep your contact information strictly confidential.</i></p><br/>
             </div>
             <form ref={form} onSubmit={sendEmail}>
