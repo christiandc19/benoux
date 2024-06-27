@@ -1,9 +1,8 @@
 
 .sectionTwo {
-  background: #67a8dd;
-  background: linear-gradient(90deg, #67a8dd 0%, rgba(40, 92, 134, 0.863) 74%);    
+  background: linear-gradient(90deg, #4e82ac 0%, rgba(40, 92, 134, 0.863) 74%);    
   padding: 2rem 0;
-    margin-top: -.2rem;
+  margin-top: -.2rem;
 }
 
 .sectionTwoHeader h1 {
@@ -17,36 +16,50 @@
 
 .sectionTwoFlex {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center; 
-
+    gap: 1rem;
+    padding: 1rem;
 }
+
 
 .sectionTwoFlexItem {
-    width: 30%;
+    width: 25%;
+    border: 2px solid rgb(236, 236, 241);
+    width: 100%;
+    padding: 3rem;
 }
 
-.primary-title {
-    align-items: center;
+
+.sectionTwoFlexItem h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.sectionTwoFlexItem h2 {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    font-weight: normal;
+    padding: 2rem 0;
 }
 
 
-/* ======================== MEDIA QUERIES FOR SMALL DEVICES ================================ */
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 940px) {
+    .sectionTwoFlex {
+        flex-wrap: wrap;
+    }
 
     .sectionTwoFlexItem {
-        width: 100%;
+        width: 90%;
+        padding: 2rem;
     }
+
+
 }
 
-/* ======================== MEDIA QUERIES FOR iPad Mini ================================ */
 
-@media screen and (max-width: 768px) {
-    .about-skills-container {
-        margin-bottom: 10rem;
-    }
-}
 
 
 
