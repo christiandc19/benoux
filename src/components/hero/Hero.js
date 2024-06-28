@@ -6,7 +6,7 @@ import "./Hero.css";
 import Hero1 from '../../assets/hero1.webp'
 import Hero2 from '../../assets/hero2.webp'
 import Hero3 from '../../assets/hero3.webp'
-import Hero4 from '../../assets/hero5.webp'
+import Hero4 from '../../assets/hero4.webp'
 
 
 
