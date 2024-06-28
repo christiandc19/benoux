@@ -64,7 +64,7 @@ const Services = () => {
                     </div>
                     <div className='servicesBtn'>
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                            <Link to="/healthcare-rpo"><button>Learn More</button></Link>
+                            <Link to="/talent-consulting"><button>Learn More</button></Link>
                         </LinkRoll>
                     </div>
 

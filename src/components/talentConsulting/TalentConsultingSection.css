@@ -70,6 +70,8 @@
     padding: .1rem 0;
 }
 
+
+
 .TalentConsultingSectionIcon {
     font-size: 1.2rem;
     color: var(--primary-color);
@@ -112,9 +114,10 @@
     }
 
 
-    .TalentConsultingSectionContent p {
+    .TalentConsultingSectionLeft p {
         font-size: 16px;
-        text-align: center;
+        text-align: justify;
     }
+
     
 }
