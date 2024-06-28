@@ -98,14 +98,13 @@ h2 {
 
 button {
   font-family: 'Roboto', sans-serif;
-  padding: 1rem 5rem;
   margin: 1rem 0;
   background-color: var(--primary-color);
   border: 1px solid var(--primary-color);
   color: #f8f8f8;
   font-size: 1.2rem;
   font-weight: 500;
-  border-radius: 25px;
+  border-radius: .4rem;
   cursor:pointer;
 
 }
@@ -136,48 +135,13 @@ padding: 7px 0 0px 0;
 margin: 0px 5px;
 }
 
-
-
-
-/* SUBMENU SECTION */
-
-.wrap {
-    display: flex;
-    flex-wrap: wrap ;
-    justify-content: center;
-  }
-  
-  .box {
-      height: auto;
-      margin: 1rem;
-  }
-  
-  .wrap .header {
-      text-align: left;
-  }
-  
-  .box img {
-      border-radius: 10px;
-  }
-  
-  p {
+p {
       font-size: 15px;
   }
 
 
-  .prog-link {
-    color: var(--primary-color);
-    font-size: 12px;
-  }
 
-  .prog-link:hover {
-    color: var(--secondary-color);
-  }
-  
 
-  .star {
-    color: goldenrod;
-}
   /* MEDIA QUERIES */
   
   @media screen and (max-width:940px) {
@@ -187,19 +151,9 @@ margin: 0px 5px;
         text-align: center;
     }
 
-    .wrap .header {
-        font-size: 1.5rem;
-        text-align: center;
-    }
 
-    .wrap .box-btn button {
-        margin: 1rem auto;
-    }
+
 }
-
-    .job-link a {
-    color: rgb(72, 214, 103);
-  }
 
 @media screen and (max-width:375px) {
   .box img {
@@ -208,38 +162,7 @@ margin: 0px 5px;
   }
 }
 
-/* MAIN MENUS CONTENTS */
 
-.main-menu .content {
-  position: absolute;
-  top: 30%;
-  /* padding: 0 10rem; */
-  width: 100%;
-}
-
-.main-menu h1 {
-  text-align: left;
-  font-size: 2rem;
-  padding: 10px 0;
-  color: var(--secondary-color);
-}
-
-
-.main-menu p {
-  color: rgb(85, 83, 83);
-  margin: auto;
-  text-align: justify;
-  font-size: 16px;
-}
-
-.job-link a {
-  color:var(--primary-color);
-  font-weight: bold;
-}
-
-.job-link a:hover {
-  color: #46a828;
-}
 
 @media screen and (max-width:940px) {
 

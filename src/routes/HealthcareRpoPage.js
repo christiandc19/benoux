@@ -8,6 +8,7 @@ import ContactForm from '../components/contact/ContactForm'
 import RpoProcess from '../components/healthcare-rpo/Rpo_process'
 import SectionTwo from '../components/sectionTwo/SectionTwo'
 import RpoBenefits from '../components/healthcare-rpo/Rpo_benefits'
+import RpoModels from '../components/healthcare-rpo/Rpo_models'
 
 const HealthcareRpoPage = () => {
     return (
@@ -18,6 +19,7 @@ const HealthcareRpoPage = () => {
            <RpoProcess />
            <RpoBenefits />
            <SectionTwo />
+           <RpoModels />
            <ContactForm />
            <Footer />
         </>

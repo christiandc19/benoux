@@ -6,13 +6,17 @@ import HomeSection1 from '../homeSection1/HomeSection1';
 import CareersHome from '../careers/CareersHome';
 import SectionTwo from '../sectionTwo/SectionTwo';
 import SideTabs from '../expertise/Sidetabs';
+import Services from '../services/Services';
 
 
 
 const home = () => {
   return (
     <>
+
+
     <SectionThree />
+    <Services />
     <SectionTwo />
     <SideTabs />
     <HomeSection1 />

@@ -13,6 +13,7 @@ import Solutions from './routes/SolutionsPage';
 import HealthcareRpoPage from './routes/HealthcareRpoPage';
 import HealthcareExecutiveSearchPage from './routes/healthcareExecutiveSearchPage';
 import PrivacyPolicyPage from './routes/PrivacyPolicyPage';
+import TalentConsultingPage from './routes/TalentConsultingPage';
 
 
 ReactDOM.render(
@@ -27,6 +28,7 @@ ReactDOM.render(
       <Route exact path='/careers' element={<CareersPage />} />
       <Route exact path='/contact' element={<ContactPage />} />
       <Route exact path='/privacy-policy' element={<PrivacyPolicyPage />} />
+      <Route exact path='/talent-consulting' element={<TalentConsultingPage />} />
 
     </Routes>
   </BrowserRouter>,

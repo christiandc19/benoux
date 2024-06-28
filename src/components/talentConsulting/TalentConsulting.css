@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+.talentConsulting {
+    width: 100%;
+    height: 100dvh;
+    position: relative;
+    background: rgba(0, 0, 0, 0.301);
+  }
+  
+  .talentConsulting:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/talent_hero_bg.webp') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+  
+.talentConsultingContent {
+    position: absolute;
+    width: 40%;
+    bottom: 20%;
+    left: 10%;
+    padding: 1rem;
+}
+
+.talentConsulting h1 {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.talentConsulting p {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+/* MEDIA QUERIES */
+
+
+
+@media screen and (max-width:940px) {
+
+.talentConsultingContent {
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    left: 0%;
+    padding: 1rem;
+}
+
+.talentConsulting h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.talentConsulting p {
+    text-align: center;
+}
+
+}
+
+
+@media screen and (max-width:700px) {
+
+    .talentConsulting {
+        height: 100vh;
+      }
+
+    .talentConsulting p {
+        font-size: 14px;
+    }
+
+    }

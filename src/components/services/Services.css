@@ -1,0 +1,106 @@
+.services {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem 1rem;
+  }
+  
+  .services:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: url('../../assets/section-bg2.webp') no-repeat center center/cover;
+    opacity: 0.08;
+  }
+
+.servicesHeader {
+    padding: 1rem 0;
+}
+
+.servicesHeader h1 {
+    font-size: 2rem;
+    padding: .5rem 0;
+    color: var(--primary-color);
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.servicesHeader p {
+    text-align: center;
+}
+
+.servicesContent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.servicesCard {
+    width: 30%;
+}
+
+.servicesCardimage {
+    width: 100%;
+    text-align: center;
+}
+
+.servicesCardimage img {
+    width: 60%;
+}
+
+.servicesCard h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+
+.servicesCard h5 {
+    text-align: center;
+    font-size: 1rem;
+    padding: .5rem 0;
+    color: var(--primary-color);
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.servicesCard p {
+    text-align: center;
+    padding: .5rem;
+}
+
+.servicesCard {
+    border: 1px solid rgba(128, 128, 128, 0.247);
+    box-shadow: -2px 2px 5px 1px rgba(0, 0, 0, 0.226);
+    -webkit-box-shadow: -2px 2px 5px 1px rgba(0, 0, 0, 0.151);
+    -moz-box-shadow: -2px 2px 5px 1px rgba(0, 0, 0, 0.226);
+}
+
+.servicesBtn {
+    text-align: center;
+    padding: 1rem;
+}
+
+.servicesBtn button {
+    text-align: center;
+    padding: .6rem 1.5rem;
+    background-color: var(--primary-color);
+}
+
+@media screen and (max-width: 700px) {
+    .servicesContent {
+        flex-wrap: wrap;
+    }
+    
+    .servicesCard {
+        width: 100%;
+    }
+    
+}

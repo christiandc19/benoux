@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+.TalentConsultingSection {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem 0;
+  }
+  
+  .TalentConsultingSection:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
+    opacity: 0.08;
+  
+  }
+
+
+.TalentConsultingSectionContent {
+    display: flex;
+    padding: 1rem;
+}
+
+.TalentConsultingSectionLeft {
+    width: 100%;
+    margin: auto;
+}
+
+.TalentConsultingSectionRight {
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+
+.TalentConsultingSectionRight img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.TalentConsultingSectionContent h1 {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+
+.TalentConsultingSectionContent p {
+    font-size: 16px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0;
+    font-family: "Roboto";
+
+}
+
+.checklist {
+    display: flex;
+    gap: 1rem;
+    padding: .1rem 0;
+}
+
+.TalentConsultingSectionIcon {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+
+
+
+@media screen and (max-width:940px) {
+
+
+    .TalentConsultingSectionLeft {
+        width: 100%;
+    }
+
+
+    .TalentConsultingSectionRight {
+        width: 100%;
+    } 
+
+
+}
+
+@media screen and (max-width:700px) {
+    .TalentConsultingSectionContent h1 {
+        font-size: 2rem;
+        text-align: center;
+        }
+
+    .homeSection2-left h2 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .TalentConsultingSectionright {
+        width: 100%;
+    } 
+
+    .TalentConsultingSectionContent {
+        flex-wrap: wrap
+    }
+
+
+    .TalentConsultingSectionContent p {
+        font-size: 16px;
+        text-align: center;
+    }
+    
+}

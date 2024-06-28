@@ -6,6 +6,7 @@ import HealthcareExecutive from '../components/healthcare-executive-search/Healt
 import HealthcareExecutiveSearchSection from '../components/healthcare-executive-search/Healthcare_executive_search_section'
 import HealthcareExecutiveSearchSection2 from '../components/healthcare-executive-search/Healthcare_executive_search_section2'
 import SectionTwo from '../components/sectionTwo/SectionTwo'
+import ContactForm from '../components/contact/ContactForm'
 
 const healthcareExecutiveSearchPage = () => {
     return (
@@ -15,6 +16,7 @@ const healthcareExecutiveSearchPage = () => {
            <HealthcareExecutiveSearchSection />
            <SectionTwo />
            <HealthcareExecutiveSearchSection2 />
+           <ContactForm />
            <Footer />
         </>
     )

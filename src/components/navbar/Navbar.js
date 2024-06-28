@@ -56,6 +56,7 @@ const Navbar = () => {
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/healthcare-rpo`}> Recruitment Process Outsourcing</NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/healthcare-executive-search`}> Executive Search Solutions</NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/talent-consulting`}> Talent Consulting</NavLink> </li>
                         </ul>
                     </li>
                     

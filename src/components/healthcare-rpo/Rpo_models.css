@@ -1,0 +1,96 @@
+.rpoModels {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem 1rem;
+  }
+  
+  .rpoModels:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
+    opacity: 0.08;
+  }
+
+.rpoModelsHeader {
+    padding: 1rem 0;
+}
+
+.rpoModelsHeader h1 {
+    text-align: center;
+    font-weight: normal;
+    padding: 1rem 0;
+}
+
+.rpoModelsHeader p {
+    text-align: center;
+}
+
+.rpoModelsContent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.rpoModelsCard {
+    width: 30%;
+}
+
+.rpoModelsCard h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+
+.rpoModelsCard h5 {
+    text-align: center;
+    font-size: 1rem;
+    padding: .5rem 0;
+    color: var(--primary-color);
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.rpoModelsCard p {
+    text-align: center;
+    padding: .5rem;
+}
+
+.rpoModelsCard {
+    border: 1px solid rgba(128, 128, 128, 0.247);
+    box-shadow: -2px 2px 5px 1px rgba(0, 0, 0, 0.226);
+    -webkit-box-shadow: -2px 2px 5px 1px rgba(0, 0, 0, 0.151);
+    -moz-box-shadow: -2px 2px 5px 1px rgba(0, 0, 0, 0.226);
+}
+
+.rpoModelsFooter {
+    padding: 1rem 0;
+}
+
+.rpoModelsFooter h1 {
+    text-align: center;
+    font-weight: normal;
+    padding: 1rem 0;
+}
+
+.rpoModelsFooter p {
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .rpoModelsContent {
+        flex-wrap: wrap;
+    }
+    
+    .rpoModelsCard {
+        width: 100%;
+    }
+    
+}
