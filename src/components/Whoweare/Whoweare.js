@@ -27,14 +27,6 @@ const Whoweare = () => {
                 </div>    
 
                 <div className='checklist'>
-                    <div className='homeSection2-icon'><BsCheckLg />
-                    </div>
-                    <div>
-                        <p>Advanced Practice Providers (APP)</p>
-                    </div>
-                </div> 
-
-                <div className='checklist'>
                     <div className='homeSection2-icon'>
                         <BsCheckLg />
                     </div>
@@ -70,14 +62,6 @@ const Whoweare = () => {
                     </div>
                 </div>
 
-                <div className='checklist'>
-                    <div className='homeSection2-icon'>
-                        <BsCheckLg />
-                    </div>
-                    <div>
-                        <p> Dental Professionals</p>
-                    </div>
-                </div>
 
                 <div className='checklist'>
                     <div className='homeSection2-icon'>
@@ -85,15 +69,6 @@ const Whoweare = () => {
                     </div>
                     <div>
                         <p> Health Tech Professionals</p>
-                    </div>
-                </div>
-
-                <div className='checklist'>
-                    <div className='homeSection2-icon'>
-                        <BsCheckLg />
-                    </div>
-                    <div>
-                        <p> Pharmacists</p>
                     </div>
                 </div>
 

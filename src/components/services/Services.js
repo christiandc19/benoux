@@ -17,7 +17,7 @@ const Services = () => {
 
             <div className='servicesHeader'>
                 <h1>Our Services</h1>
-                <p>Recruitment Process Outsourcing (RPO) is a strategic partnership where an organization transfers all or part of its recruitment processes to an external service provider. RPO providers bring specialized expertise, advanced technology, and industry best practices to enhance the efficiency and effectiveness of the hiring process. Depending on the specific needs and goals of an organization, various RPO models can be employed to optimize recruitment efforts. Below are the primary RPO models:</p>
+                <p>At Benoux Staffing Agency, we are dedicated to connecting top talent with leading healthcare providers across various specialties. Our comprehensive staffing solutions are designed to meet the unique needs of each sector, ensuring the highest quality of care and service.</p>
             </div>
 
             <div className='servicesContent'>

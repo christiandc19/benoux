@@ -30,9 +30,8 @@ const ExpertiseSection2 = () => {
                         <h2>Permanent Placement Services</h2>  
                         <p>Finding the right fit for your permanent team can be a daunting task. Benoux Staffing Agency simplifies this process by connecting you with candidates who not only possess the required qualifications but also align with your organizational culture. We specialize in placing:</p><br/>
                         <ul>
-                            <li><p><span><BsCheckLg /></span>Physicians and Surgeons </p></li>
+                            <li><p><span><BsCheckLg /></span>Physicians </p></li>
                             <li><p><span><BsCheckLg /></span> Nurse Practitioners (NPs)</p></li>
-                            <li><p><span><BsCheckLg /></span> Physician Assistants (PAs)</p></li>
                             <li><p><span><BsCheckLg /></span> Healthcare Administrators</p></li>
                             <li><p><span><BsCheckLg /></span> Allied Health Professionals</p></li>
                         </ul>
