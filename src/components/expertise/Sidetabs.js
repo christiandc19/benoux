@@ -3,15 +3,9 @@ import './Sidetabs.css';
 import { BsDot } from "react-icons/bs";
 
 import { FaBrain } from "react-icons/fa";
-import { TbDental } from "react-icons/tb";
-import { GiSpineArrow } from "react-icons/gi";
-import { MdHealthAndSafety } from "react-icons/md";
-import { FaEye } from "react-icons/fa";
 import { TbNurse } from "react-icons/tb";
 import { FaHandHoldingMedical } from "react-icons/fa";
 import { RiMentalHealthLine } from "react-icons/ri";
-import { GiBodyBalance } from "react-icons/gi";
-import { MdBiotech } from "react-icons/md";
 
 const SideTabs = () => {
   const [activeTab, setActiveTab] = useState('tab1');
@@ -41,80 +35,30 @@ const SideTabs = () => {
         <div
           className={`tab ${activeTab === 'tab2' ? 'active' : ''}`}
           onClick={() => handleTabClick('tab2')}>
-          Chiropractors
-          <h2>Healthcare</h2>
+            Nursing
+            <h2>Healthcare</h2>
         </div>
 
         <div
           className={`tab ${activeTab === 'tab3' ? 'active' : ''}`}
           onClick={() => handleTabClick('tab3')}>
-            Dental
+            Medical
             <h2>Healthcare</h2>
         </div>
 
         <div
           className={`tab ${activeTab === 'tab4' ? 'active' : ''}`}
           onClick={() => handleTabClick('tab4')}>
-            Home Health
+            Mental Health
             <h2>Healthcare</h2>
         </div>
 
         <div
           className={`tab ${activeTab === 'tab5' ? 'active' : ''}`}
           onClick={() => handleTabClick('tab5')}>
-            Nursing
-            <h2>Healthcare</h2>
-        </div>
-
-        <div
-          className={`tab ${activeTab === 'tab6' ? 'active' : ''}`}
-          onClick={() => handleTabClick('tab6')}>
-            Medical
-            <h2>Healthcare</h2>
-        </div>
-
-        <div
-          className={`tab ${activeTab === 'tab7' ? 'active' : ''}`}
-          onClick={() => handleTabClick('tab7')}>
-            Mental Health
-            <h2>Healthcare</h2>
-        </div>
-
-        <div
-          className={`tab ${activeTab === 'tab8' ? 'active' : ''}`}
-          onClick={() => handleTabClick('tab8')}>
-            Optometry
-            <h2>Healthcare</h2>
-        </div>
-
-        <div
-          className={`tab ${activeTab === 'tab9' ? 'active' : ''}`}
-          onClick={() => handleTabClick('tab9')}>
-            Physical Therapy
-            <h2>Healthcare</h2>
-        </div>
-
-        <div
-          className={`tab ${activeTab === 'tab10' ? 'active' : ''}`}
-          onClick={() => handleTabClick('tab10')}>
-            Senior Living
-            <h2>Healthcare</h2>
-        </div>
-
-        <div
-          className={`tab ${activeTab === 'tab11' ? 'active' : ''}`}
-          onClick={() => handleTabClick('tab11')}>
             Telehealth
             <h2>Healthcare</h2>
         </div>
-
-        <div
-          className={`tab ${activeTab === 'tab12' ? 'active' : ''}`}
-          onClick={() => handleTabClick('tab12')}>
-            Biotechnology
-            <h2>Life Sciences</h2>
-        </div>
-
 
 
       </div>
@@ -140,37 +84,8 @@ const SideTabs = () => {
           </ul>
           </div>}
 
-        {activeTab === 'tab2' && 
-        <div>
-          <h1>Chiropractors</h1>
-          <h2><GiSpineArrow /></h2>
-          <p>
-          Are you seeking skilled chiropractic professionals to enhance your healthcare team? Benoux Agency Staffing specializes in connecting healthcare facilities with qualified chiropractors who bring expertise and dedication to patient care. Whether you're looking to fill temporary or permanent positions, our tailored staffing solutions ensure you find the right fit for your organization.</p>
-          </div>}
 
-        {activeTab === 'tab3' &&         
-        <div>
-          <h1>Dental</h1>
-          <h2><TbDental /></h2>
-
-          <p>
-          Benoux Agency Staffing specializes in providing comprehensive staffing solutions tailored specifically for the dental industry. Our agency understands the unique staffing challenges faced by dental practices and is dedicated to connecting qualified professionals with rewarding career opportunities. Whether you're looking to hire skilled dental professionals or seeking new career opportunities in the dental field, Benoux Agency Staffing is here to assist you every step of the way.</p>
-          </div>}
-
-          {activeTab === 'tab4' &&         
-        <div>
-          <h1>Home Health</h1>
-          <h2><MdHealthAndSafety />
-          </h2>
-          <p>
-          Welcome to Benoux Agency Staffing, your trusted partner in home health care staffing solutions. At Benoux, we specialize in connecting compassionate and qualified healthcare professionals with home health agencies nationwide. Our mission is to enhance the quality of life for patients by ensuring they receive exceptional care from dedicated caregivers.</p><br/>
-          <p>Whether you're seeking skilled nurses, certified aides, or specialized therapists, Benoux Agency Staffing is committed to providing personalized staffing solutions tailored to your specific needs. With our extensive network and rigorous screening process, we ensure that only the most competent and caring professionals join your team.</p><br/>
-          <p>Discover how Benoux Agency Staffing can support your home health care needs. Contact us today to learn more about our comprehensive staffing services.
-
-</p>
-          </div>}
-
-          {activeTab === 'tab5' &&         
+          {activeTab === 'tab2' &&         
         <div>
           <h1>Nursing</h1>
           <h2><TbNurse />
@@ -188,7 +103,7 @@ const SideTabs = () => {
 
           </div>}
 
-          {activeTab === 'tab6' &&         
+          {activeTab === 'tab3' &&         
         <div>
           <h1>Medical</h1>
           <h2><FaHandHoldingMedical />
@@ -197,7 +112,7 @@ const SideTabs = () => {
           Benoux Agency Staffing specializes in comprehensive medical staffing solutions tailored to meet the unique needs of healthcare providers. Our dedicated team connects qualified healthcare professionals with top medical facilities, ensuring exceptional patient care and operational excellence. Discover how Benoux Agency Staffing can support your staffing needs and elevate your healthcare services.</p>
           </div>}
 
-          {activeTab === 'tab7' &&         
+          {activeTab === 'tab4' &&         
         <div>
           <h1>Mental Health</h1>
           <h2><RiMentalHealthLine />
@@ -206,38 +121,9 @@ const SideTabs = () => {
           Benoux Agency Staffing understands the critical importance of mental health professionals in today's healthcare landscape. We specialize in connecting qualified mental health professionals with healthcare facilities in need of their expertise. Our comprehensive staffing solutions ensure that organizations can provide exceptional care to their patients. Whether you are looking for temporary placements or permanent staff, Benoux Agency Staffing is here to meet your mental health staffing needs with reliability and professionalism.</p>
           </div>}
 
-          {activeTab === 'tab8' &&         
-        <div>
-          <h1>Optometry</h1>
-          <h2><FaEye />
-          </h2>
-          <p>
-          Benoux Agency Staffing specializes in connecting skilled optometry professionals with top-tier opportunities across various healthcare settings. Our comprehensive staffing solutions ensure that optometry practices and clinics find the right talent to enhance their patient care and operational efficiency.</p>
+    
 
-          <h3>Why Choose Benoux Agency Staffing?</h3>
-          <ul>
-            <li><BsDot /> Expertise in Optometry: With a deep understanding of the optometry field, we ensure that candidates meet the specific needs of your practice.</li>
-            <li><BsDot /> Streamlined Recruitment Process: Our rigorous screening and evaluation process ensures that only the most qualified candidates are presented to you.</li>
-            <li><BsDot /> Commitment to Quality: We are dedicated to excellence in staffing solutions, providing ongoing support to both clients and candidates.</li>
-          </ul>
-          </div>}
-          
-
-          {activeTab === 'tab9' && 
-        <div>
-          <h1>Physical Therapy</h1>
-          <h2><GiBodyBalance /></h2>
-          <p>Benoux Agency Staffing is dedicated to connecting skilled physical therapists with healthcare facilities in need of their expertise. Whether you're a healthcare professional seeking new opportunities or a facility looking to fill critical roles, we specialize in providing tailored staffing solutions to meet your specific needs.</p>
-          </div>}
-
-          {activeTab === 'tab10' && 
-        <div>
-          <h1>Senior Living</h1>
-          <h2><FaHandHoldingMedical   /></h2>
-          <p>Behavioral health organizations need therapists, crisis counselors, and psychiatrists who can help patients overcome their battle with substance abuse and life stressors. If your organization is struggling to hire qualified therapists, our RPO experts can help.</p>
-          </div>}
-
-          {activeTab === 'tab11' && 
+          {activeTab === 'tab5' && 
         <div>
           <h1>Telehealth</h1>
           <h2><FaBrain /></h2>
@@ -253,27 +139,7 @@ const SideTabs = () => {
           </div>}
 
 
-          {activeTab === 'tab12' && 
-        <div>
-          <h1>Biotechnology</h1>
-          <h2><MdBiotech /></h2>
-          <p>At Benoux Agency Staffing, we specialize in connecting top-tier talent with leading organizations in the biotechnology sector. Our comprehensive staffing solutions are designed to meet the unique needs of biotechnology companies, ensuring they have the skilled professionals necessary to drive innovation and advancement in the field.</p>
-
-          <h3>Our Expertise</h3>
-          <p>Industry Knowledge: Our team of recruiters possesses deep expertise in the biotechnology industry. We understand the intricate demands of this sector, from research and development to regulatory compliance and commercialization.</p><br/>
-          <p>Specialized Roles: We recruit for a wide range of roles within biotechnology, including but not limited to:</p>
-          <ul>
-            <li><BsDot /> Research Scientists</li>
-            <li><BsDot /> Biomedical Engineers</li>
-            <li><BsDot /> Clinical Research Associates</li>
-            <li><BsDot /> Regulatory Affairs Specialists</li>
-            <li><BsDot /> Bioinformatics Analysts</li>
-            <li><BsDot /> Quality Assurance Managers</li>
-          </ul>
-          </div>}
-
-
-
+        
       </div>
     </div>
     </div>

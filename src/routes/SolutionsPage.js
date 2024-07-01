@@ -6,6 +6,7 @@ import SOLUTIONS from '../components/solutions/Solutions'
 import SOLUTIONSSECTION from '../components/solutions/SolutionsSection'
 import ContactForm from '../components/contact/ContactForm'
 import SectionTwo from '../components/sectionTwo/SectionTwo'
+import SolutionsCards from '../components/solutions/SolutionsCards'
 
 
 const Team = () => {
@@ -14,6 +15,7 @@ const Team = () => {
     <Navbar /> 
     <SOLUTIONS />
     <SOLUTIONSSECTION />
+    <SolutionsCards />
     <SectionTwo />
     <ContactForm />
     <Footer />
