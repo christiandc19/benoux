@@ -155,5 +155,39 @@
 
 
 
+@media screen and (max-width: 600px) {
+  .sub__menus {
+    position: absolute;
+    display: none;
+    border-radius: 3px;
+    width: 100%;
+    padding: 2px 0 0 0;
+    margin-top: 6px;
+    z-index: 1000;
+    left: 0;
+  }
+
+  .navbar li {
+    width: 100%;
+}
+
+.menu-item .sub__menus li a {
+  color: rgb(218, 161, 6) !important;
+  font-size: 13px;
+  padding: -1rem ;
+}
+
+.menu-item .sub__menus li a:hover {
+  color: #ffffff !important;
+}
+
+.navbar-logo {
+  width: 150px;
+}
+
+}
+
+
+
 
 
