@@ -36,7 +36,7 @@ const Hero = () => {
             <h2>Quality. Trust. Expertise</h2>
             </Zoom>
             <Zoom duration={3000}>
-            <p></p>
+            <p><a href="tel:3232710351"> +1 (323) 271-0351</a></p>
             </Zoom>
             </div>
           </div>
