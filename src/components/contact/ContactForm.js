@@ -1,6 +1,4 @@
 import React, { useRef } from "react";
-// import { BsFillPinMapFill } from 'react-icons/bs';
-// import { AiOutlineMail } from 'react-icons/ai';
 import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
 
@@ -40,6 +38,8 @@ feedbackEl.setAttribute("class", "feedback hidden");
     return (
         <>
 
+        
+
 <div className="bg">
 
 <section className="contact-container container">
@@ -62,7 +62,6 @@ feedbackEl.setAttribute("class", "feedback hidden");
                 <input type="text" name='company' placeholder='Company name' required /> <br/>
                 <input type="text" name='email' placeholder='Your Email' required /> <br/>
                 <input type="tel" name='phone' placeholder='Your Phone' required /> <br/>
-                {/* <input type="text" name='subject' placeholder='Subject' required /> <br/> */}
               </div>
               <div>
                 <textarea name="message" placeholder="How can we help?" cols="30" rows="10" required></textarea>

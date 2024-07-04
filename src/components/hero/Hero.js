@@ -8,12 +8,22 @@ import Hero2 from '../../assets/hero2.webp'
 import Hero3 from '../../assets/hero3.webp'
 import Hero4 from '../../assets/hero4.webp'
 
+import { Helmet } from 'react-helmet';
 
 
 
 const Hero = () => {
   return (
     <>
+
+      <Helmet>
+        <title>Benoux Agency - Home</title>
+        <meta name="description" content="Benoux Staffing Agency provides top-tier staffing solutions in the healthcare industry, including dental, nursing, and biotechnology sectors." />
+        <meta name="keywords" content="staffing agency, healthcare staffing, dental staffing, nursing staffing, biotechnology staffing" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.benouxagency.com/" />
+      </Helmet>
+
     <div className="hero-content">
       <div className="hero">
 

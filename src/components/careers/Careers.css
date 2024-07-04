@@ -57,10 +57,6 @@
 
 
 @media screen and (max-width:700px) {
-
-    .careers {
-        height: 100vh;
-    }
     
     .careers .careers-content {
         bottom: 10%;
