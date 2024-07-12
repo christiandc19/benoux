@@ -3,10 +3,10 @@ import React from "react";
 // import Fade from "react-reveal/Fade";
 import Zoom from 'react-reveal/Zoom';
 import "./Hero.css";
-import Hero1 from '../../assets/Hero1.webp'
-import Hero2 from '../../assets/Hero2.webp'
-import Hero3 from '../../assets/Hero3.webp'
-import Hero4 from '../../assets/Hero4.webp'
+import Hero1 from '../../assets/hero1.webp'
+import Hero2 from '../../assets/hero2.webp'
+import Hero3 from '../../assets/hero3.webp'
+import Hero4 from '../../assets/hero4.webp'
 
 import { Helmet } from 'react-helmet';
 
