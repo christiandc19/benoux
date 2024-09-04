@@ -72,6 +72,13 @@ const ContactForm = () => {
                                     title="Please enter a valid phone number with 10 to 15 digits."
                                 /> 
                                 <br />
+                                <input 
+                                        type="text" 
+                                        name="subject" 
+                                        placeholder="Subject" 
+                                        required 
+                                    /> 
+                                    <br />
                                 <label className="userTypeLabel">Are you an Employer or an Applicant?</label><br />
                                 <select 
                                     name="userType" 
