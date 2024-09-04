@@ -5,7 +5,7 @@ import logo from '../../assets/hero-logo.png'
 import "./FooterStyles.css";
 import { MdAlternateEmail } from "react-icons/md";
 import { FiMapPin } from "react-icons/fi";
-import { FaPhone } from "react-icons/fa";
+// import { FaPhone } from "react-icons/fa";
 
 
 import { Link as LinkRoll } from "react-scroll";
@@ -119,9 +119,9 @@ const Footer = () => {
             <div className="col">
               <h3>CONTACT</h3>
 
-              <div>
+              {/* <div>
                   <p><span><FaPhone  /><a href="tel:3232710351"> +1 (323) 271-0351</a></span></p>
-              </div>
+              </div> */}
 
               <div>
                   <p><span><MdAlternateEmail  /><a href = "mailto: abc@example.com">info@BenouxAgency.com</a></span></p>
